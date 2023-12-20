@@ -16,6 +16,11 @@ lvresize -l +100%FREE /dev/pve/root
 ```bash
 resize2fs /dev/mapper/pve-root
 ```
+### Reiniciar Servicio Web Proxmox
+
+```bash
+systemctl restart pveproxy.service
+```
 ### Eliminar Mensaje de Subcripcion 
 [Eliminar Mensaje Subcripcion] (http://somebooks.es/eliminar-el-mensaje-no-valid-subscription-al-iniciar-sesion-en-proxmox-ve/)
 
