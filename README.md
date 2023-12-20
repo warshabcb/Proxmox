@@ -24,7 +24,8 @@ systemctl restart pveproxy.service
 ### Eliminar Mensaje de Subcripcion 
 [Eliminar Mensaje Subcripcion] (http://somebooks.es/eliminar-el-mensaje-no-valid-subscription-al-iniciar-sesion-en-proxmox-ve/)
 
-
+### Usar Dos Tarjetas de Red Networking Bonding
+[ Networking Bonding] ( https://youtu.be/auMugO3zsKw ) 
 ### Configuracion Maquina Virtual
 ```bash
 sudo nano /etc/pve/local/qemu-server/machine.conf
