@@ -2,9 +2,9 @@
 
 ### Programas necesarios
 
-- [X] **Spice**  (`https://www.spice-space.org`).
-- [X] **spice-guest-tools** (`https://www.spice-space.org`).
-- [X] **Linux** ```sudo apt install spice-vdagent```
+- [X] **Spice**  `https://www.spice-space.org`.
+- [X] **spice-guest-tools** `https://www.spice-space.org`.
+- [X] **Linux** ```sudo apt install spice-vdagent```.
 
 
 ### Configuracion Maquina Virtual
