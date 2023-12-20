@@ -1,5 +1,12 @@
 # Notas Proxmox 
 
+### Programas necesarios
+
+- [X] **Spice**  (`https://www.spice-space.org`).
+- [X] **spice-guest-tools** (`https://www.spice-space.org`).
+- [X] **Linux** ```sudo apt install spice-vdagent```
+
+
 ### Configuracion Maquina Virtual
 ```bash
 sudo nano /etc/pve/local/qemu-server/machine.conf
@@ -10,4 +17,6 @@ sudo nano /etc/pve/local/qemu-server/machine.conf
 ```bash
 args: -vnc 0.0.0.0:77
 ```
+
+
 
