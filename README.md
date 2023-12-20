@@ -6,6 +6,19 @@
 - [X] **spice-guest-tools** `https://www.spice-space.org`.
 - [X] **Linux** ```sudo apt install spice-vdagent```.
 
+### Usar 100% Disco en Proxmox
+```bash
+lvremove /dev/pve/data
+```
+```bash
+lvresize -l +100%FREE /dev/pve/root
+```
+```bash
+resize2fs /dev/mapper/pve-root
+```
+### Eliminar Mensaje de Subcripcion 
+[Eliminar Mensaje Subcripcion] (http://somebooks.es/eliminar-el-mensaje-no-valid-subscription-al-iniciar-sesion-en-proxmox-ve/)
+
 
 ### Configuracion Maquina Virtual
 ```bash
