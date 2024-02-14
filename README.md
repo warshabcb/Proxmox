@@ -61,4 +61,18 @@ args: -vnc 0.0.0.0:77
 ```
 
 
+## Pasar Archivo .ova a qcow2  
+### Extraer el Archivo .ova
+```
+tar -xvf nombre_de_tu_archivo.ova
+```
+### Convertir el VMDK a QCOW2
+```
+qemu-img convert -f vmdk archivo_origen.vmdk -O qcow2 archivo_destino.qcow2
+```
+###
+Ahora se debe de copiar en la ruta donde esta la nueva VM creada
+
+
+
 
