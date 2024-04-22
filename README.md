@@ -1,3 +1,5 @@
+Repo = https://github.com/mtyb/Proxmox_8.0.4_PCIE_Passthrough?tab=readme-ov-file
+
 # Notas Proxmox 
 
 ### Programas necesarios
